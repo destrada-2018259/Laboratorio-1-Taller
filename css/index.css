@@ -1,0 +1,164 @@
+body{
+    background-color: #EAF27C;
+}
+.header{
+    height: 80px;
+    background-color: #0C1821;
+    line-height: 40px;
+    position: sticky;
+    width: 100%;
+}
+.logo{
+    margin-top: 2.5%;
+    color: white;
+    font-size: 2.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.navbar{
+    margin-left: 50%;
+    background-color: #0C1821;
+    color: white;
+    justify-items: right;
+}
+.nav-item a{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 20%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+.nav-item a:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+    background-color: white;
+}
+.nav-item .active{
+    color: white;
+    background-color: white;
+    border-radius: 20%;
+}
+.hero1{
+    max-height: 100%;
+    background-color: #EAF27C;
+    color: #0C1821;
+    width: 100%;
+    font-weight: bold;
+}
+.hero1 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 8rem;
+    margin-top: 0;
+    margin-bottom: 10%;
+    font-style: oblique;
+}
+.hero1 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.7rem;
+    font-style: ita8ic;
+    text-align: center;
+}
+
+.hero2{
+    height: 800px;
+    width: 100%;
+    background-color: #0C1821;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+.card{
+    width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #D5DCF9;
+    color: #0C1821;
+}
+.img-card{
+    margin-top: 70px
+    
+}
+#cultura{
+    width: 90%;
+    margin-top: 15%;
+    margin-left: 10px;
+}
+.card-title{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-decoration-line: underline;
+    text-align: center;
+}
+.card-text{
+    text-align: justify;
+    color: #0C1821;
+    font-weight: 500    ;
+}
+#hero3{
+    height: 800px;
+    width: 100%;
+    background-color: #EAF27C;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+.big-card{
+    height: 550px;
+    width: 1400px;
+    border-radius: 30px;
+}
+
+#computacion{
+    width: 92%;
+    margin-left: 25px;
+    margin-top: 60px;
+}
+.software-text{
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+.software-card{
+    background-color: #FF5D73;
+}
+
+.img-multiplayer{
+    width: 90%;
+    margin-top: 25%;
+    margin-left: 7%;
+}
+
+.imagen{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.pie-pagina{
+    background-color: #0C1821;
+    height: 85px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+#musica{
+    width: 90%;
+    margin-top: 17%;
+    margin-left: 7%;
+}
+
+#autobiografia{
+    background-color: #0C1821;
+    
+}
