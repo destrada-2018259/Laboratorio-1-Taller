@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,16 +13,17 @@
     <!--CDN de librería aos para animaciones-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
     <header class="header" data-aos="fade-down" data-aos-duration="700">
         <div class="container">
             <div class="row">
                 <!--Logo-->
                 <div class="col">
-                    <h1 class="logo">rojoBlog</h1>
+                    <h1 class="logo">rojo-Blog</h1>
                 </div>
                 <!--Navbar de Bootstrap-->
-                <div class="col"  >
+                <div class="col">
                     <nav class="navbar sticky-top navbar-expand-lg">
                         <div class="container-fluid">
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -52,13 +54,17 @@
 
     <div class="container-fluid">
         <div class="row">
-            <section class="hero1">
+            <section class="hero1 hero-bio">
                 <!--Hero basado en ejemplos de la documentación de bootstrap-->
                 <div class="position-relative overflow-hidden p-3 p-md-5
                         m-md-3 text-center ">
                     <div class="col-md-10 p-lg-5 mx-auto my-5">
-                        <h1 class="display-2 " data-aos="fade-right" data-aos-duration="700">¡La historia de mi vida!</h1>
-                        <p class="lead fw-normal" data-aos="fade-left" data-aos-duration="700">Te comparto los momentos más importantes e interesantes de mis 18 años de vida. Me gustaría poder contártelo todo pero se haría muy extenso así que vamos con un recuento rápido.Como siempre empezaremos por el inicio, es decir mi infancia y niñes y culminaremos con mi realidad actual.</p>
+                        <h1 class="display-2 " data-aos="fade-right" data-aos-duration="700">¡La historia de mi vida!
+                        </h1>
+                        <p class="lead fw-normal" data-aos="fade-left" data-aos-duration="700">Te comparto los momentos
+                            más importantes e interesantes de mis 18 años de vida. Me gustaría poder contártelo todo
+                            pero se haría muy extenso así que vamos con un recuento rápido.Como siempre empezaremos por
+                            el inicio, es decir mi infancia y niñes y culminaremos con mi realidad actual.</p>
                     </div>
                     <div class="product-device shadow-sm d-none d-md-block"></div>
                     <div class="product-device product-device-2 shadow-sm
@@ -69,40 +75,82 @@
     </div>
 
     <div class="container-fluid" id="autobiografia">
-            <div class="row">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                      
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <div class="row align-items-center">
+            <!--Acordion-->
+            <div class="offset-lg-2 col-lg-8" >
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" data-aos="fade-right" data-aos-duration="2000">
+                          Primeros años de vida (0-4)
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Nací el 5 de Diciembre de 2004.</strong> En el Instituto Guatemalteco de Seguridad Social (IGGS) ubicado en la Zona 6. Durante mis primeros 2 años de vida, permanecí junto a mis padres y mis dos hermanos mayores, Raul y David, quienes desde siempre han sido para mi una figura paterna y un apoyo bastante grande en mi vida. <br>Por las circunstancias que se estaban dando en la familia mientras yo tenía 2 años se decidió que junto a mi mamá, Sally, y mis hermanos viviríamos en una zona distinta al de mi papá. Esto sin duda fue un cambio bastante grande, del que yo no tengo memoria debido a mi corta edad. Mi hermano mayor fue quien por muchos años se hizo cargo de nosotros para poder brindarnos el pan diario y todas las necesidades básicas. <br> A los 4 años de edad ingresé a la Escuela Oficial de Párvulos Federico Froebel, en donde aprendería como cualquier niño lo más básico que se necesita para llegar a la primaria.
                         </div>
                       </div>
-                      <div class="col-md-4">
-                        <img src="..." class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" data-aos="fade-left" data-aos-duration="2000"> 
+                          Niñez y preadolescencia (5-12)
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Este es uno de los periodos que más recuerdo de mi vida, debido a qué fue donde conocí a muchos de los que hoy en día siguen siendo amigos cercanos y de confianza. También porque en esta etapa descubriría mi afición por el ajedrez la cual me llevo incluso a participar en un torneo intercolegial en el cual conseguí el tercer lugar. Mis estudios de primaria los realicé en la Escuela Oficial Urbana Mixta José Francisco de Cordoba. <br> En cuanto a rendimiento académico siempre me fue bien y pude aprovechar las oportunidades para aprender lo necesario. En ese establecimiento fue donde comencé a notar que mi personalidad era demasiado introvertida y que debía comenzar a cambiar por mi propio bien, y fue entonces cuando comencé a hacer pequeños cambios en mi forma de ser que me llevaron a tener bastantes amigos y que se me conociera por ser alguien capaz de trabajar en equipo y de llevarse bien con los demás. <br> En cuanto al ámbito familiar la situación fue dura, nunca nos faltó lo necesario, pero si fue un lapso de tiempo durante el cual nos encontrábamos en una inestabilidad económica. Seguía siendo mi hermano mayor quien aportaba el dinero a la casa, mientras mi hermano mediano estaba estudiando la carrera de informática en Kinal. Donde posteriormente se graduaría y comenzaría a ser un segundo pilar para el hogar en cuanto a economía se refiere.
+                        </div>
                       </div>
                     </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" data-aos="fade-right" data-aos-duration="2000">
+                          Adolescencia (13 - 15)
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            En esta edad fue cuando entré en <strong>Kinal</strong> para primero básico. Comencé a adaptarme al hecho de lo estricto y también de que fuera un centro educativo solo para varones. Al principio adaptarse es un poco complicado debido a la diferencia que existe en el nivel de educación pero uno se va acostumbrando. Kinal sin duda alguna cambió mi vida y las de las personas que me rodean ya que a través de la educación y de las metas comencé a vivir valores que antes no hubiera imaginado que aplicaría a mi vida diaria. Durante segundo básico, cuando tenía 14 años de edad, comencé con mi catequesis de confirmación que sin duda fue un antes y un después en mi vida, por las personas que conocí y por mi propio encuentro con Dios. <br>
+                            Académicamente la verdad no me fue nada mal, siempre aprobaba los cursos y tenía unas notas bastante decentes, tanto fue así que en primero y en segundo básico sería seleccionado para competir en la Olimpiada Nacional de Ciencias de la USAC, reprensentando a Kinal, la experiencia que obtuve no tiene precio y se podría decir que fue algo que marcó un antes y un después en mi vida y haría que me conocieran un poco más en el colegio.
+                            <br>
+                            En cuanto al ambiente en el hogar fue mejorando bastante, debido al trabajo de mi hermano mayor y de mi hermano mediano quien ya se estaba posicionando como un gran desarrolador. La situación fue para mejor en todo momento y nunca volvimos a la inestabilidad que teníamos en los años anteriores.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" data-aos="fade-left" data-aos-duration="2000">
+                            Actualidad (16-18)
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Decidí estudiar en Kinal la carrera técnica de <strong>perito en computación,</strong>  debido a mis gustos por las computadoras, el hardware y el software. Lastimosamente durante el primer año aún se vivía el auge del <strong>Covid-19,</strong> que estaba cobrando vidas a montones en el país y por lo tanto mi primer y la mitad de segundo año de carrera tuvieron que ser en línea. Pienso que si hubiese sido presencial hubiera adquirido más conociemientos de los que tengo actualmente. <br>Con ayuda de los profesores y compañeros logré aprender y comprender muchos conceptos esenciales para la carrera como lo es la lógica de programación que es indispensable. Recuerdo con especial cariño mi <strong>primer proyecto final de bimestre,</strong>  que fue realizado haciendo uso del lenguaje de programación Java, consistía en hacer cruds y tener distintos roles para una tienda de ropa. Fue la primera vez que pasé una semana metido en el mismo proyecto buscandole soluciones a los problemas así como formas de hacer que la interfaz no fuera desagradable para el usuario. Desde mi punto de vista la parte más difícil del desarrollo de software son las validaciones para que el programa pueda correr sin errores, ya que tenemos que anticiparnos a las posibles acciones del usuario. <br> <br>
+                            Actualmente me encuentro en mi último año de carrera, con todo el ánimo de seguir adelante y de darlo todo para poder graduarme y conseguir una buena plaza laboral para comenzar a generar ingresos y ayudar a mi familia. Epero aprender mucho este año y llevarme un bonito recuerdo de cuando estudié durante 6 años en Kinal.
+                          </div>
+                        </div>
+                      </div>
                   </div>
-                  
-    </div>
-
-    <div class="container-fluid pie-pagina">
-        <div class="row">
-            <footer>
-                <p>&copy; Daniel de Jesús Estrada Rojo | IN6BV | 2018-259</p>
-            </footer>
+            </div>
         </div>
-    </div>
 
-    <!--Script de Bootstrap-->
-    <script src="./js/bootstrap.js"></script>
-    <!--CDN de Javascript para agregar las animaciones de aos-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!--Inicialización de aos para animaciones-->
-    <script>
-        AOS.init();
-      </script>
+        <div class="container-fluid pie-pagina-autobiografia">
+            <div class="row">
+                <footer>
+                    <p>&copy; Daniel de Jesús Estrada Rojo | IN6BV | 2018-259</p>
+                </footer>
+            </div>
+        </div>
+
+        <!--Script de Bootstrap-->
+        <script src="./js/bootstrap.js"></script>
+        <!--CDN de Javascript para agregar las animaciones de aos-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!--Inicialización de aos para animaciones-->
+        <script>
+            AOS.init();
+        </script>
 </body>
+
 </html>

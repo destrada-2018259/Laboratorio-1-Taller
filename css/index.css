@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredoka+One&family=Lobster&family=Russo+One&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Rubik+Vinyl&display=swap');
+
 body{
     background-color: #EAF27C;
 }
@@ -9,10 +14,10 @@ body{
     width: 100%;
 }
 .logo{
-    margin-top: 2.5%;
+    margin-top: 3%;
     color: white;
     font-size: 2.2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Russo One', sans-serif;
     font-weight: bold;
     font-style: italic;
 }
@@ -54,18 +59,18 @@ body{
     font-weight: bold;
 }
 .hero1 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Handlee', cursive;
     font-weight: bold;
-    font-size: 8rem;
+    font-size: 11rem;
     margin-top: 0;
     margin-bottom: 10%;
     font-style: oblique;
 }
 .hero1 p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Handlee', cursive;
     font-weight: bold;
     font-style: italic;
-    font-size: 1.7rem;
+    font-size: 2.3rem;
     font-style: ita8ic;
     text-align: center;
 }
@@ -97,7 +102,7 @@ body{
 }
 .card-title{
     font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Handlee';
     font-style: oblique;
     text-decoration-line: underline;
     text-align: center;
@@ -105,7 +110,10 @@ body{
 .card-text{
     text-align: justify;
     color: #0C1821;
-    font-weight: 500    ;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    font-family: 'Handlee', cursive;
+    
 }
 #hero3{
     height: 800px;
@@ -127,8 +135,8 @@ body{
     margin-top: 60px;
 }
 .software-text{
-    font-size: 1.05rem;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: bolder;
 }
 .software-card{
     background-color: #FF5D73;
@@ -149,7 +157,7 @@ body{
     height: 85px;
     font-size: 1.5rem;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
     color: white;
 }
 #musica{
@@ -160,5 +168,38 @@ body{
 
 #autobiografia{
     background-color: #0C1821;
+    padding-top: 5%;
     
 }
+.pie-pagina{
+    font-family: 'Bungee', cursive;
+
+}
+ .hero-bio h1{
+    font-size: 8.5rem;
+ }
+
+ .pie-pagina-autobiografia{
+    margin-top: 5%;
+    font-family: 'Bungee', cursive;
+    background-color: #0C1821;
+    height: 85px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+ }
+ .accordion-body{
+    background-color: #0C1821;
+    font-family: 'Handlee', cursive;
+    color: white;
+    font-size: 1.3rem;
+ }
+ .accordion-button{
+    background-color: #FF5D73;
+    border-style: solid;
+    border-color: #0C1821;
+    font-family: 'Handlee', cursive;
+    font-size: 1.5rem;
+    font-weight: bolder;
+ }
+ 
