@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+
+body{
+    background-color: white;
+}
+.header{
+    height: 80px;
+    background-color:rgb(35,55,109);
+    line-height: 40px;
+    position: sticky;
+    width: 100%;
+}
+.logo{
+    margin-top: 3%;
+    color: white;
+    font-size: 2.2rem;
+    font-family: 'Sedgwick';
+    font-weight: bold;
+    font-style: italic;
+}
+.navbar{
+    margin-left: 50%;
+    background-color:rgb(35,55,109);
+    color: white;
+    justify-items: right;
+}
+.nav-item a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 20%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: 'Cursive';
+    
+}
+.nav-item a:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+    color:white;
+    text-decoration: white;
+    background-color: rgb(253, 181, 0);
+}
+
+
+.col-logo{
+    display: flex;
+    flex-direction: row;
+}
+#logo-kinal{
+    width: 22%;
+}
+
+.img-carousel{
+    width: auto;
+   max-height: 1000px;
+}
+
+.trabajo-bien-hecho{
+    background-color: white;
+    color: rgb(35,55,109);
+    font-family: 'Condiment', cursive;
+    margin-top: 5%;
+    font-size: 5rem;
+    margin-bottom: 5%;
+}
+.trabajo-bien-hecho h1{
+    margin-top: 10%;
+}
+#parrafo-trabajo{
+    font-size: 1.5rem;
+    font-family: 'Sedgwick ave';
+}
+.img-trabajo{
+    width: 100%;
+    border-radius: 10%;
+}
+
+.carreras-tecnicas{
+    background-color: rgb(35,55,109);
+    color: white;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.carreras-tecnicas p{
+    font-family: 'Condiment';
+    font-size: 6rem;
+}
+#parrafo-carreras{
+    font-size: 1.7rem;
+    font-family: 'Sedgwick ave';
+    
+}
+.img-carreras{
+    width: 100%;
+    margin-right: 5%;
+    border-radius: 5%;
+}
+
+.peritos-tecnicos{
+    background-color: rgb(253, 181, 0);
+    color: rgb(35,55,109);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.peritos-tecnicos p{
+    font-family: 'Condiment';
+    font-size: 5rem;
+}
+
+#parrafo-peritos{
+    font-size: 1.3rem;
+    font-family: 'Sedgwick ave';
+}
+
+.img-peritos{
+    width: 100%;
+    border-radius: 5%;
+}
+
+#negocio{
+    font-size: 5rem;
+}
+.img-negocio{
+    width: 100%;
+    margin-top: 10%;
+    border-radius: 5%;
+}
+.img-unis{
+    width: 50%;
+    border-radius: 10%;
+    margin-left: 30%;
+}
+
+
+.escuela-tecnica{
+    background-color: rgb(253, 181, 0);
+}
+.ciclo-basico{
+    background-color: rgb(125, 10, 66);
+}
+
+.diversificado{
+    background-color: rgb(35,55,109);
+}
+.total{
+    background-color: rgb(235, 114, 7);
+}
+.jovenes-beneficiados{
+    font-family: 'Condiment';
+    font-size: 7rem;
+}
+.album{
+    background-color:rgb(35,55,109) ;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.img-album{
+    align-self: center;
+    width: 275px;
+    height: 200px;
+    padding: 20px;
+}
+.img-honda{
+    width: 200px;
+}
+.unis-img{
+    width: 230px;
+}
+
+.img-kry{
+    height: 200px;
+    width: 400px;
+}
